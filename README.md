@@ -6,9 +6,9 @@
 | --- | --- | --- |
 | Apple silicon Mac | 0.1.12 | [Notarized DMG](https://github.com/AndreiTabarna/SignalDAW-Releases/releases/download/v0.1.12/SignalDAW-0.1.12-macOS-arm64.dmg) |
 | Intel Mac | 0.1.12 | [Notarized DMG](https://github.com/AndreiTabarna/SignalDAW-Releases/releases/download/v0.1.12/SignalDAW-0.1.12-macOS-x86_64.dmg) |
-| Windows x64 | 0.1.11 | [Setup.exe](https://github.com/AndreiTabarna/SignalDAW-Releases/releases/download/v0.1.11/SignalDAW-0.1.11-Windows-Setup.exe) |
+| Windows x64 | 0.1.12 | [Setup.exe](https://github.com/AndreiTabarna/SignalDAW-Releases/releases/download/v0.1.12/SignalDAW-0.1.12-Windows-Setup.exe) |
 
-Version 0.1.12 corrects an isolated plug-in scanning timeout regression. Both Mac installers are Developer ID signed, Apple-notarized and stapled. The Windows hotfix is undergoing installer verification; its existing verified download and signed update feed remain on 0.1.11 until that completes. Windows Setup downloads verified payload files automatically and is not Authenticode-signed. For offline Windows installation, place all four payload ZIPs from its release beside Setup.exe.
+Version 0.1.12 corrects an isolated plug-in scanning timeout regression. Both Mac installers are Developer ID signed, Apple-notarized and stapled. Windows Setup downloads verified payload files automatically and is not Authenticode-signed. For offline Windows installation, place all four payload ZIPs from its release beside Setup.exe.
 
 The latest release includes production-signed update feeds and [SHA256 checksums](https://github.com/AndreiTabarna/SignalDAW-Releases/releases/download/v0.1.12/SHA256SUMS). Version 0.1.11 remains available for recovery.
 
